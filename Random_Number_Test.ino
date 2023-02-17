@@ -1,5 +1,5 @@
 /*
-                        Random Numner Test
+                        Random Number Test
                      Vernon Billingsley c2023
                         Raspberry Pi Pico
                        Arduino IDE 1.8.13                     
