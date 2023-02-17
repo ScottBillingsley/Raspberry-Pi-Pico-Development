@@ -23,7 +23,6 @@ Board json..<br>
   ## Files:
  
 Random Number Test<br>
-&emsp; Seup the random number generator using the <br>
-&emsp; ring oscillator to generate a random seed..<br>
+&emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
         
 
