@@ -1,7 +1,10 @@
 # Raspberry-Pi-Pico-Development
 A place for my development files for the Raspberry Pi Pico..
+
                           Raspberry Pi Pico
+                          
                          Arduino IDE 1.8.13
+                         
 
   Board json..
   https://github.com/earlephilhower/arduino-pico
