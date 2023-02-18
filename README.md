@@ -31,6 +31,7 @@ Dual Core Test 2<br>
 Dual Core Test 3<br>
 &emsp; &emsp;Use RPi_Pico_TimerInterrupt to blink an LED<br>
 &emsp; &emsp;One on core0 and one on core1...<br>
+&emsp; &emsp;https://github.com/khoih-prog/RPI_PICO_TimerInterrupt<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 
