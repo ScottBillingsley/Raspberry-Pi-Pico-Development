@@ -34,4 +34,8 @@ Dual Core Test 3<br>
 &emsp; &emsp;https://github.com/khoih-prog/RPI_PICO_TimerInterrupt<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
+Serial Wombat Encoder Test<br>
+&emsp; &emsp;Setup and test the Serial Wombat in the encoder mode on I2C...<br>
+&emsp; &emsp;Display the results incrementing and decrementing a variable... <br>
+
 
