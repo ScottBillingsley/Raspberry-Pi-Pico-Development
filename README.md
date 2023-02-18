@@ -22,12 +22,11 @@ Board json..<br>
   
   ## Files:
  
-Random Number Test<br>
-&emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 Dual Core Test<br>
 &emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0, pausing core0 during the write cycle...<br>
 Dual Core Test 2<br>
 &emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0..<br>
 &emsp; &emsp;Use the FIFO to pause core0 during the write cycle...<br>
-
+Random Number Test<br>
+&emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 
