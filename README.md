@@ -23,7 +23,8 @@ Board json..<br>
   ## Files:
  
 Dual Core Test<br>
-&emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0, pausing core0 during the write cycle...<br>
+&emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0,<br>
+&emsp; &emsp;pausing core0 during the write cycle...<br>
 Dual Core Test 2<br>
 &emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0..<br>
 &emsp; &emsp;Use the FIFO to pause core0 during the write cycle...<br>
