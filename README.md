@@ -32,6 +32,11 @@ Dual Core Test 3<br>
 &emsp; &emsp;Use RPi_Pico_TimerInterrupt to blink an LED<br>
 &emsp; &emsp;One on core0 and one on core1...<br>
 &emsp; &emsp;https://github.com/khoih-prog/RPI_PICO_TimerInterrupt<br>
+MCP4921 Dual Core Test<br>
+&emsp; &emsp;Setup the Pico in dual core mode, setup <br>
+&emsp; &emsp;the MCP4921 DAC on core1 and send a full <br>
+&emsp; &emsp;speed 1024 sample sine wave to the dac...<br>
+&emsp; &emsp;Blink LED on core0 to confirm dual core..<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 Serial Wombat Encoder Test<br>
