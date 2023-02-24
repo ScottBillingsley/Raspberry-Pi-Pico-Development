@@ -21,7 +21,14 @@ Board json..<br>
   Upload Method: "Default (UF2)"<br>
   
   ## Files:
- 
+
+ADC Read Test<br>
+&emsp; &emsp;Setup and read the ADC on core0 and control<br>
+&emsp; &emsp;the bllink delay of LED on core 1..<br>
+ADC Read Test 2<br>
+&emsp; &emsp;Setup and read the ADC on core0 and control<br>
+&emsp; &emsp;the blink delay on core1 by passing a byte<br>
+&emsp; &emsp;between cores...<br>
 Dual Core Test<br>
 &emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0,<br>
 &emsp; &emsp;pausing core0 during the write cycle...<br>
