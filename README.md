@@ -44,6 +44,9 @@ MCP4921 Dual Core Test<br>
 &emsp; &emsp;the MCP4921 DAC on core1 and send a full <br>
 &emsp; &emsp;speed 1024 sample sine wave to the dac...<br>
 &emsp; &emsp;Blink LED on core0 to confirm dual core..<br>
+Pin Interrupt Test<br>
+&emsp; &emsp;Setup amd test the arduino attach interrupt<br>
+&emsp; &emsp;function...SDK code also included..<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 Serial Wombat Encoder Test<br>
