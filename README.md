@@ -29,6 +29,8 @@ ADC Read Test 2<br>
 &emsp; &emsp;Setup and read the ADC on core0 and control<br>
 &emsp; &emsp;the blink delay on core1 by passing a byte<br>
 &emsp; &emsp;between cores...<br>
+Clock Hands Test<br>
+&emsp; &emsp;Display a clock face on a Nextion Display...<br>
 Dual Core Test<br>
 &emsp; &emsp;Test writing to an array using core1 and read from and printing the array using core0,<br>
 &emsp; &emsp;pausing core0 during the write cycle...<br>
