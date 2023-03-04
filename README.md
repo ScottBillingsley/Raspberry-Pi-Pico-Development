@@ -52,7 +52,7 @@ Pin Interrupt Test<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
 Read Rotary Encoder<br>
-&emsp; &emsp; An example of how to read a KY040 rotary encoder<br>       
+&emsp; &emsp; An example of how to read a KY040 rotary encoder<br>
 &emsp; &emsp; using pin change interrupt...<br>
 Serial Wombat Encoder Test<br>
 &emsp; &emsp;https://broadwellconsultinginc.github.io/SerialWombatArdLib/ <br>
