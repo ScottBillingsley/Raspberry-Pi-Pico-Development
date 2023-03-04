@@ -51,6 +51,9 @@ Pin Interrupt Test<br>
 &emsp; &emsp;function...SDK code also included..<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
+Read Rotary Encoder<br>
+&emsp; &emsp; An example of how to read a KY040 rotary encoder        
+&emsp; &emsp; using pin change interrupt...
 Serial Wombat Encoder Test<br>
 &emsp; &emsp;https://broadwellconsultinginc.github.io/SerialWombatArdLib/ <br>
 &emsp; &emsp;Setup and test the Serial Wombat in the encoder mode on I2C...<br>
