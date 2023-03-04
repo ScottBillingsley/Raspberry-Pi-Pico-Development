@@ -146,7 +146,6 @@ const double cos_table[] = {
 void screen_setup() {
   /* Clear the screen */
   Serial1.print(clear_screen + end_char);
-  delay(1);
   /* Draw the face of the clock */
   draw_circle(screen_center_x, screen_center_y, circle_radius, 3);
   /* Place dots on the hour marks */
