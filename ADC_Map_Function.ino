@@ -4,7 +4,7 @@
                           Raspberry Pi Pico
                          Arduino IDE 1.8.13
 
-                  A now divison map function to map the ADC returns..
+                  A non divison map function to map the ADC returns..
                   Also a LP filter to steady the ADC returns before
                   mapping...
 
