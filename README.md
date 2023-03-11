@@ -41,6 +41,9 @@ Dual Core Test 3<br>
 &emsp; &emsp;Use RPi_Pico_TimerInterrupt to blink an LED<br>
 &emsp; &emsp;One on core0 and one on core1...<br>
 &emsp; &emsp;https://github.com/khoih-prog/RPI_PICO_TimerInterrupt<br>
+Interpolator Accum Test<br>
+&emsp; &emsp;Setup the interpolator and draw two sine waveforms<br>
+&emsp; &emsp;to the serial plotter...<br>
 MCP4921 Dual Core Test<br>
 &emsp; &emsp;Setup the Pico in dual core mode, setup <br>
 &emsp; &emsp;the MCP4921 DAC on core1 and send a full <br>
