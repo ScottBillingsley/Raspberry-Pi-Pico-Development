@@ -57,6 +57,9 @@ Pin Interrupt Test<br>
 &emsp; &emsp;function...SDK code also included..<br>
 Random Number Test<br>
 &emsp; &emsp; Seup the random number generator using the ring oscillator to generate a random seed..<br>
+Read MCP3202 ADC<br>
+&emsp; &emsp;Setup the SPI and get a reading from the<br>
+&emsp; &emsp;MCP3202 ADC...  <br>
 Read Rotary Encoder<br>
 &emsp; &emsp; An example of how to read a KY040 rotary encoder<br>
 &emsp; &emsp; using pin change interrupt...<br>
