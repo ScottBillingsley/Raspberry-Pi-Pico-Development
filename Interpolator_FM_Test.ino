@@ -4,9 +4,9 @@
                           Raspberry Pi Pico
                          Arduino IDE 1.8.13
 
-                  Setup the interpolator and draw two sine waveforms
-                  to the serial plotter...
-
+                  Setup the interpolator and draw sine wave modulated
+                  by a second sine wave to the serial plotter...
+                  
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -160,6 +160,7 @@ void setup() {
   interp0->accum[0] = 0;
   interp1->accum[0] = 0;
   /* Load the count into  base */
+  /* uint32_t aWord = (2^32) * freq / referance clock */
   interp0->base[0] = 10713070;  /* 110 */
   interp1->base[1] = 42852281;  /* 440 */
 
@@ -179,17 +180,20 @@ void setup1() {
 /**************************** Loop ********************************/
 /******************************************************************/
 void loop() {
-
+  
+  /* Get the modulator step */
   int this_x = interp0->pop[2];
+  /* Get the base freq step */
   int this_y = interp1->pop[2];
 
+  /* Get the sine value of the modulator from the table */
   int this_s = (sine_table[this_x]) >> 1;
-
+  /* Apply the modulator to the base step */
   int this_z = (this_y + this_s) & 0x07ff;
-  
+
+  /* Display */
   Serial.println(sine_table[this_z]);
 
-  
   delay(10);
 
 }/*************************** End Loop *****************************/
