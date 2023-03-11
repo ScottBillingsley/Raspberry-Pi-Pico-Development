@@ -44,6 +44,9 @@ Dual Core Test 3<br>
 Interpolator Accum Test<br>
 &emsp; &emsp;Setup the interpolator and draw two sine waveforms<br>
 &emsp; &emsp;to the serial plotter...<br>
+Interpolator FM Test<br>
+&emsp; &emsp;Setup the interpolator and draw sine wave modulated<br>
+&emsp; &emsp;by a second sine wave to the serial plotter...<br>
 MCP4921 Dual Core Test<br>
 &emsp; &emsp;Setup the Pico in dual core mode, setup <br>
 &emsp; &emsp;the MCP4921 DAC on core1 and send a full <br>
