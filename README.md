@@ -23,7 +23,7 @@ Board json..<br>
   ## Files:
 
 ADC Map Function<br>
-&emsp; &emsp; A now divison map function to map the ADC returns..<br>
+&emsp; &emsp; A non divison map function to map the ADC returns..<br>
 &emsp; &emsp; Also a LP filter to steady the ADC returns before<br>
 &emsp; &emsp; mapping...<br>
 ADC Read Test<br>
